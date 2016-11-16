@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#D1A7A0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bandbreite"
+            android:textSize="20dp"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:background="#D1A7A0"
+            android:layout_marginTop="20dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber1"
+            android:layout_weight="1"
+            android:background="#D1A7A0"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diskretSt"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#D1A7A0"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editTextNumber2"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:background="#D1A7A0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1A7A0" >
+
+
+    <Button
+        android:text="SUBMIT"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/button2"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:onClick="calcNyq"
+        />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D1A7AA">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maximale Bitrate:"
+            android:textSize="30sp"
+
+
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:ems="10"
+            android:id="@+id/textViewResult"
+            android:layout_weight="1"
+            android:background="#D1A7A0"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:background="@color/colorPrimary"
+        android:onClick="sendMessage"
+    />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
